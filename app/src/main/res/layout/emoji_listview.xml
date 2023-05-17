@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ListView
+        android:id="@+id/emoji_listview"
+        android:layout_width="match_parent"
+        android:layout_height="265dp"
+        tools:listitem="@layout/emoji_listview_item"
+        android:divider="@drawable/divider1"
+        android:dividerHeight="10dp"
+        android:background="#261C40"/>
+
+</LinearLayout>
